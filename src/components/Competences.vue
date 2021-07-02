@@ -39,7 +39,4 @@
     </div>
   </section>
 </template>
-<script>
-
-
-</script>
+<script lang="ts"></script>

@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+//* ICON *//
+.fab {
+    font-size: 5rem;
+    // &:hover {
+    //     color: white;
+    // }
+}
+// .custom-hover :hover {
+//     background-color: #4a4a4a;
+// }
+
+
+
+
+
+//* FONTS *//
+@font-face {
+    font-family: "BSSD Regular";
+    src: url("../fonts/BigShouldersStencilDisplay-Light.ttf");
+};
+$family-sans-serif: "BSSD Regular", "Roboto";
+.custom {
+    font-family: "BSSD Regular";
+    font-size: 4rem!important;
+}
+     
+section.hero > .title {
+    color:azure;
+}
+
+//* BG *//
+html {
+    background-image: url(../img/bg.png);
+}
+
+
+
+@import "../../../node_modules/bulma/bulma.sass";
+
+
